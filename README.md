@@ -25,6 +25,6 @@ We have received your data. Before procceding to the implementation we would lik
 4. After reviewing the initial batch of data we have calculated potential data storage needed and decided to recommend starting the project on a cloud such as AWS (Amazon Web Services) or GCP (Google Cloud Platform) where you be able succesfully scale without potential hurdles updating and managing your own servers. Cloud services have scalability "on-demand" as well as robust tools for the analysis of the data. Let's discuss this in details on our next one-on-one meeting.
 
 
-Thank you.
+Thank you. \
 Best Regards \
 Vasyl Zhepikov
