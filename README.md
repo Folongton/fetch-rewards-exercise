@@ -16,10 +16,15 @@ I went thru the process of transfering messy JSON to RDB building actual Databas
 3. Redundancy: <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards_exercise.ipynb#Now-let's-format-users-dataframe"> User Ids </a> and many other supposedly unique attributes entered many times over, making it hard to relate the tables.
 
 ### 4. Communicate with Stakeholders.
-Hello, Stakeholder.
-This is Vasyl Zhepikov from the Data Analytics department.
+Hello, Stakeholder. \
+This is Vasyl Zhepikov from the Data Analytics department. \
 We have received your data. Before procceding to the implementation we would like to discuss some asspects of it to be sure we are on the same page. 
 1. Please, let us know how do you define "barcode" attribute in your data ? As we see that barcodes quantity almost indentical to the quantity of the brands. From my past experience in marketing I know "barcode" usually referse to the UPC barcodes - unique to each product, not a brand. 
 2. We have also spotted many empty receipts - receipts with no items on. Please, let us know how this scenario possible and if it contains any meaningfull information, or we can simply disregard empty receipts.
 3. We would like to have more data regarding "items" and "cpg" (Consumer Packaged Goods) in order to be able provide more insights for the business. Please, let us know if we can obtain that information.
-4. After reviewing the initial batch of data we have calculated potential data storage needed and decided to recommend starting the project on a cloud such as AWS (Amazon Web Services) or GCP (Google Cloud Platform) where you be able succesfully scale without potential hurdles updating and managing your own servers. Cloud services have scalability "on-demand" as well as robust tools for the analysis of the data. 
+4. After reviewing the initial batch of data we have calculated potential data storage needed and decided to recommend starting the project on a cloud such as AWS (Amazon Web Services) or GCP (Google Cloud Platform) where you be able succesfully scale without potential hurdles updating and managing your own servers. Cloud services have scalability "on-demand" as well as robust tools for the analysis of the data. Let's discuss this in details on our next one-on-one meeting.
+
+
+Thank you.
+Best Regards \
+Vasyl Zhepikov
