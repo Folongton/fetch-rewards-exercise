@@ -7,13 +7,13 @@ Using a diagram from DBeaver. I have decided to move out "items" Table. "items" 
 
 ### 2. Write a query that directly answers a business question.
 I have built DB using SQLite and was runnig queries from Jupyter Notebook. However, since we were using dummy data, queries doesn't provide any useful information.
-<a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards.ipynb#1842-out-of-5753-is-not-terribly-bad-considering-dummy-data.">Query URL.</a>
+<a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rew.ipynb#1842-out-of-5753-is-not-terribly-bad-considering-dummy-data.">Query URL.</a>
 
 ### 3. Evaluate data quality issues in the data provided.
 I went thru the process of transfering messy JSON to RDB building actual Database. Here are some, but not all issues I have found along my procces:
-1. Incompleteness: There are many things missing from the data, but here are an example of "empty" receipts. Those are basically have only date and ID, with no useful information. <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards.ipynb#Some-of-the-receipts-have-no-items-on-them,-as-shown-below.-We-have-to-drop-the-empty-receipts."> "empty" receipts URL.</a> Besides this, data has many NaN values everywhere as it was sourced from NoSQL format.
-2. Inaccuracy: Since it is dummy data most of it is inaccurate. As an example <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards.ipynb#Now,-let's-format-brands.json.gz"> here</a> in the brands DataFrame we have column "name" and "branCode" with test values.
-3. Redundancy: <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards.ipynb#Now-let's-format-users.json.gz"> User Ids </a> and many other supposedly unique attributes entered many times over, making it hard to relate the tables.
+1. Incompleteness: There are many things missing from the data, but here are an example of "empty" receipts. Those are basically have only date and ID, with no useful information. <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rew.ipynb#Some-of-the-receipts-have-no-items-on-them,-as-shown-below.-We-have-to-drop-the-empty-receipts."> "empty" receipts URL.</a> Besides this, data has many NaN values everywhere as it was sourced from NoSQL format.
+2. Inaccuracy: Since it is dummy data most of it is inaccurate. As an example <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rew.ipynb#Now,-let's-format-brands.json.gz"> here</a> in the brands DataFrame we have column "name" and "branCode" with test values.
+3. Redundancy: <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rew.ipynb#Now-let's-format-users.json.gz"> User Ids </a> and many other supposedly unique attributes entered many times over, making it hard to relate the tables.
 
 ### 4. Communicate with Stakeholders.
 Hello, Stakeholder. \
