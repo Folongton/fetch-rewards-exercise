@@ -14,3 +14,10 @@ I went thru the process of transfering messy JSON to RDB building actual Databas
 1. Incompleteness: There are many things missing from the data, but here are an example of "empty" receipts. Those are basically have only date and ID, with no useful information. <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards_exercise.ipynb#Some-of-the-receipts-have-no-items-on-them,-as-shown-below.-We-have-to-drop-the-empty-receipts."> "empty" receipts URL.</a> Besides this, data has many NaN values everywhere as it was sourced from NoSQL format.
 2. Inaccuracy: Since it is dummy data most of it is inaccurate. As an example <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards_exercise.ipynb#Now,-let's-format-brands-DF"> here</a> in the brands DataFrame we have column "name" and "branCode" with test values.
 3. Redundancy: <a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards_exercise.ipynb#Now-let's-format-users-dataframe"> User Ids </a> and many other supposedly unique attributes entered many times over, making it hard to relate the tables.
+
+### 4. Communicate with Stakeholders.
+Hello, Stakeholder.
+This is Vasyl Zhepikov from the Data Analytics department.
+We have received your data. Before procceding to the implementation we would like to discuss some asspects of it to be sure we are on the same page. 
+1. Please, let us know how do you define "barcode" attribute in your data ? As we see that barcodes quantity almost indentical to the quantity of the brands. From my past experience in marketing I know "barcode" usually referse to the UPC barcodes - unique to each product, not a brand. 
+2. We have also spotted many empry receipts - receipts with no items on. Please, let us know how this scenario possible and if it contains any meaningfull information.
