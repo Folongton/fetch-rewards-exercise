@@ -7,7 +7,7 @@ Using a diagram from DBeaver. I have decided to move out "items" Table. "items" 
 
 ### 2. Write a query that directly answers a business question.
 I have built DB using SQLite and was runnig queries from Jupyter Notebook. However, since we were using dummy data, queries doesn't provide any useful information.
-<a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rew.ipynb#1842-out-of-5753-is-not-terribly-bad-considering-dummy-data.">Query URL.</a>
+<a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rew.ipynb#1842-out-of-5753-is-not-terribly-bad-considering-dummy-data.">Queries URL.</a>
 
 ### 3. Evaluate data quality issues in the data provided.
 I went thru the process of transfering messy JSON to RDB building actual Database. Here are some, but not all issues I have found along my procces:
