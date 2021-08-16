@@ -6,5 +6,6 @@ Using a diagram from DBeaver. I have decided to move out "items" Table. "items" 
 ![new_er](https://github.com/Folongton/fetch-rewards-exercise/blob/master/fetch-ER.png)
 
 ### 2. Write a query that directly answers a business question.
-<a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards_exercise.ipynb#1842-out-of-5753-is-not-terribly-bad-considering-dummy-data.">Download Page</a>
-<a href="#INSERT_YOUR_OBJECT_NAME_HERE">
+I have built DB using SQLite and was runnig queries from Jupyter Notebook. However, since we were using dummy data, queries doesn't provide any useful information.
+<a href="https://nbviewer.jupyter.org/github/Folongton/fetch-rewards-exercise/blob/master/fetch_rewards_exercise.ipynb#1842-out-of-5753-is-not-terribly-bad-considering-dummy-data.">Query URL.</a>
+
