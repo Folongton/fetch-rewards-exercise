@@ -2,9 +2,9 @@
 
 * This exercise was done for one of the interview questions. The requirements were:
 1. to create a DB from unstructured data.
-2. Do an analysys on data
-3. Prepare communicate findings to stakeholders.
-   ---------
+2. Do the data analysis. 
+3. Prepare and communicate findings to stakeholders.
+
 
 ### 1. New Structured Relational Data Model
 Using a diagram from DBeaver. I have decided to move out "items" Table. "items" table corresponds to the "rewardsReceiptItemList" attribute from our receipts.json file. Primary Keys are shown in Bold. I could have also simply flatten the whole receipts.json to a single table, but decided to keep it cleaner with Junction table.
